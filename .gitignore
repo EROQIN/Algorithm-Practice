@@ -1,2 +1,4 @@
 src/.lcpr_data
 workspace.yaml
+.vscode
+src/build
