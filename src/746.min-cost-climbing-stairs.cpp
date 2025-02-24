@@ -41,16 +41,16 @@ public:
         vector<int> a(cost.size()+1);
         a[0] = cost[0];
         a[1] = cost[1];
-        cout << a[0] << "   " << a[1] << "   ";
+        // cout << a[0] << "   " << a[1] << "   ";
         for(int i = 2;i<cost.size();++i){
             //疏漏2：这里需要加上cost
             a[i] = min(a[i-1],a[i-2]) + cost[i];
-            cout << a[i] << "   ";
+            // cout << a[i] << "   ";
         }
         a[cost.size()] = min(a[cost.size()-1],a[cost.size()-2]);
         return a[cost.size()];
 
-
+        //提交前记得把cout注释掉，否则很耗时
 
 
 
