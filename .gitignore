@@ -1,4 +1,10 @@
-src/.lcpr_data
-workspace.yaml
+# VS Code
 .vscode
+
+# Cloud Studio
+workspace.yaml
+
+# Other
+src/.lcpr_data
 src/build
+.temp
