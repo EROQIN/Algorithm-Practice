@@ -8,3 +8,5 @@ workspace.yaml
 src/.lcpr_data
 src/build
 .temp
+build/Debug/outDebug
+build/Debug/计算表达时的真值.o
